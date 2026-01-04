@@ -1,0 +1,355 @@
+{
+    "intents": [
+  
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hi",
+          "hello",
+          "hey",
+          "good morning",
+          "good evening",
+          "hey bot"
+        ],
+        "responses": [
+          "Hello! I can answer questions related to hypertension.",
+          "Hi there! Ask me anything about high blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "bye",
+          "exit",
+          "quit",
+          "goodbye",
+          "see you later"
+        ],
+        "responses": [
+          "Goodbye! Take care of your health.",
+          "Bye! Stay healthy."
+        ]
+      },
+  
+      {
+        "tag": "hypertension_definition",
+        "patterns": [
+          "what is hypertension",
+          "what is high blood pressure",
+          "define hypertension",
+          "explain hypertension",
+          "meaning of hypertension"
+        ],
+        "responses": [
+          "Hypertension is a medical condition in which blood pressure in the arteries is persistently high."
+        ]
+      },
+  
+      {
+        "tag": "bp_levels",
+        "patterns": [
+          "normal blood pressure",
+          "what is normal bp",
+          "healthy bp range",
+          "ideal blood pressure level"
+        ],
+        "responses": [
+          "Normal blood pressure is around 120/80 mmHg."
+        ]
+      },
+  
+      {
+        "tag": "high_bp_range",
+        "patterns": [
+          "what bp is considered high",
+          "high bp range",
+          "when bp becomes dangerous",
+          "bp above normal"
+        ],
+        "responses": [
+          "Blood pressure above 140/90 mmHg is generally considered high."
+        ]
+      },
+  
+      {
+        "tag": "hypertension_causes",
+        "patterns": [
+          "what causes hypertension",
+          "causes of high blood pressure",
+          "why bp increases",
+          "reason for high bp"
+        ],
+        "responses": [
+          "Hypertension can be caused by stress, obesity, high salt intake, lack of exercise, and genetics."
+        ]
+      },
+  
+      {
+        "tag": "risk_factors",
+        "patterns": [
+          "risk factors of hypertension",
+          "who is at risk of high bp",
+          "why hypertension happens",
+          "hypertension risk"
+        ],
+        "responses": [
+          "Risk factors include age, family history, obesity, smoking, alcohol intake, and poor diet."
+        ]
+      },
+  
+      {
+        "tag": "hypertension_symptoms",
+        "patterns": [
+          "symptoms of hypertension",
+          "signs of high blood pressure",
+          "how do i know if i have bp",
+          "bp symptoms"
+        ],
+        "responses": [
+          "Hypertension often has no symptoms, but may include headache, dizziness, or blurred vision."
+        ]
+      },
+  
+      {
+        "tag": "silent_killer",
+        "patterns": [
+          "why hypertension is called silent killer",
+          "silent killer disease",
+          "does bp show symptoms"
+        ],
+        "responses": [
+          "Hypertension is called a silent killer because it often has no noticeable symptoms."
+        ]
+      },
+  
+      {
+        "tag": "hypertension_danger",
+        "patterns": [
+          "is hypertension dangerous",
+          "can high bp kill",
+          "is bp life threatening",
+          "can hypertension cause death"
+        ],
+        "responses": [
+          "Yes, untreated hypertension can be life threatening and may cause heart attack or stroke."
+        ]
+      },
+  
+      {
+        "tag": "hypertension_complications",
+        "patterns": [
+          "complications of hypertension",
+          "effects of high bp",
+          "what happens if bp is untreated",
+          "bp complications"
+        ],
+        "responses": [
+          "Untreated hypertension can cause heart disease, stroke, kidney failure, and vision loss."
+        ]
+      },
+  
+      {
+        "tag": "heart_disease",
+        "patterns": [
+          "can bp cause heart disease",
+          "high bp and heart problems",
+          "does hypertension affect heart"
+        ],
+        "responses": [
+          "Yes, high blood pressure damages heart arteries and increases heart disease risk."
+        ]
+      },
+  
+      {
+        "tag": "stroke_risk",
+        "patterns": [
+          "can hypertension cause stroke",
+          "bp and stroke",
+          "stroke risk due to bp"
+        ],
+        "responses": [
+          "Yes, hypertension is a major risk factor for stroke."
+        ]
+      },
+  
+      {
+        "tag": "kidney_damage",
+        "patterns": [
+          "does hypertension affect kidneys",
+          "bp and kidney damage",
+          "can bp cause kidney failure"
+        ],
+        "responses": [
+          "Yes, prolonged high blood pressure can damage the kidneys."
+        ]
+      },
+  
+      {
+        "tag": "eye_damage",
+        "patterns": [
+          "does bp affect eyes",
+          "hypertension and vision",
+          "can high bp cause blindness"
+        ],
+        "responses": [
+          "Yes, high blood pressure can damage blood vessels in the eyes."
+        ]
+      },
+  
+      {
+        "tag": "hypertension_treatment",
+        "patterns": [
+          "how to treat hypertension",
+          "treatment for high bp",
+          "how to control bp",
+          "bp treatment options"
+        ],
+        "responses": [
+          "Hypertension is treated with lifestyle changes and medications."
+        ]
+      },
+  
+      {
+        "tag": "bp_medication",
+        "patterns": [
+          "medicines for high bp",
+          "bp tablets",
+          "drugs for hypertension",
+          "blood pressure medication"
+        ],
+        "responses": [
+          "Common BP medicines include ACE inhibitors, beta blockers, and diuretics."
+        ]
+      },
+  
+      {
+        "tag": "bp_medication_duration",
+        "patterns": [
+          "is bp medicine lifelong",
+          "do i need bp medicine forever",
+          "can bp medicine be stopped"
+        ],
+        "responses": [
+          "BP medication is often long term, but it depends on severity and doctor advice."
+        ]
+      },
+  
+      {
+        "tag": "diet_for_hypertension",
+        "patterns": [
+          "diet for hypertension",
+          "what to eat in high bp",
+          "bp diet plan",
+          "food for bp patient"
+        ],
+        "responses": [
+          "A low-salt diet with fruits, vegetables, and whole grains is recommended."
+        ]
+      },
+  
+      {
+        "tag": "salt_intake",
+        "patterns": [
+          "does salt increase bp",
+          "salt and hypertension",
+          "should bp patient avoid salt"
+        ],
+        "responses": [
+          "Yes, excessive salt intake raises blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "exercise_for_bp",
+        "patterns": [
+          "exercise for hypertension",
+          "can exercise reduce bp",
+          "best workout for bp"
+        ],
+        "responses": [
+          "Regular exercise such as walking, cycling, or swimming helps reduce blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "weight_loss",
+        "patterns": [
+          "can weight loss reduce bp",
+          "obesity and hypertension",
+          "does weight affect bp"
+        ],
+        "responses": [
+          "Yes, losing excess weight helps lower blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "stress_bp",
+        "patterns": [
+          "does stress cause hypertension",
+          "stress and high bp",
+          "can anxiety raise bp"
+        ],
+        "responses": [
+          "Chronic stress can contribute to increased blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "alcohol_bp",
+        "patterns": [
+          "does alcohol increase bp",
+          "alcohol and hypertension",
+          "can drinking raise bp"
+        ],
+        "responses": [
+          "Yes, excessive alcohol intake can raise blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "smoking_bp",
+        "patterns": [
+          "does smoking cause bp",
+          "smoking and hypertension",
+          "can cigarettes increase bp"
+        ],
+        "responses": [
+          "Yes, smoking damages blood vessels and increases blood pressure."
+        ]
+      },
+  
+      {
+        "tag": "prevention",
+        "patterns": [
+          "how to prevent hypertension",
+          "prevent high bp",
+          "can hypertension be avoided"
+        ],
+        "responses": [
+          "Hypertension can be prevented by healthy diet, regular exercise, and stress control."
+        ]
+      },
+  
+      {
+        "tag": "out_of_scope",
+        "patterns": [
+          "are you human",
+          "do you understand me",
+          "tell me a joke",
+          "who made you"
+        ],
+        "responses": [
+          "Sorry, I can only answer questions related to hypertension."
+        ]
+      },
+      {
+        "tag": "no_answer",
+        "patterns": [],
+        "responses": ["I'm sorry, I don't understand that.", "Could you rephrase? I only know about hypertension."]
+      }
+  
+    ]
+  }
+  
